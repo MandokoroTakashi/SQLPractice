@@ -74,7 +74,7 @@ SELECT name, life_expectancy FROM countries WHERE life_expectancy IS NOT NULL OR
 
 -- 問18
 -- 平均寿命が長い順、独立記念日が新しい順に国を表示させてください。
-SELECT name, life_expectancy, indep_year FROM countries WHERE life_expectancy IS NOT NULL ORDER BY life_expectancy DESC ,indep_year;
+SELECT name, life_expectancy, indep_year FROM countries WHERE life_expectancy IS NOT NULL ORDER BY life_expectancy DESC ,indep_year DESC;
 
 
 -- 問19
